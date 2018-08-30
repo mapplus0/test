@@ -1,8 +1,15 @@
----
-redirect_to: "http://www.google.com"
----
+<!DOCTYPE html>
 <html>
-  <body>
-    <a href="http://92.245.6.121">Click here to go to my website</a>
-  </body>
+    <head>
+        <title>Redirect</title>
+        <script type="text/javascript">
+        function goToWebsite() {
+            window.location = "http://92.245.6.121";
+        }
+        window.onload = goToWebsite;
+        </script>
+    </head>
+    <body>
+    	<a href="http://92.245.6.121">Click here if nothing happens</a>
+    </body>
 </html>
