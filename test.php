@@ -1,4 +1,3 @@
-<?PHP
-include test.php;
-echo '<h1>Hi</h1>';
+<?php
+mail("risomiscik@gmail.com","My subject","Hello!");
 ?>
