@@ -1,2 +1,3 @@
-echo 'Hi';
-phpinfo();
+<?php
+echo '<h1>Hi</h1>';
+?>
